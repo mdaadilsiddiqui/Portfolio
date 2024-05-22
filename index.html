@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadil's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/484d1ff7e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="app">AADiL.</h1>
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headtext">
+                <h1>Hi, I'am <br><span>MOHD AADIL</span></h1>
+                <p>And I'm a Passionate</p> <strong><span id="element"></span></strong>
+            </div>
+            <div class="headd">
+                <h2>Follow Me</h2>
+                <div class="social-icons" id="noo">
+                    <a href="https://www.instagram.com/siddiquiaaqalb/?igsh=MzRlODBiNWFlZA%3D%3D"><i
+                            class="fa-brands fa-instagram" id="ins"></i></a>
+                    <a href="https://www.linkedin.com/in/siddiquimdaadil/"><i
+                            class="fa-brands fa-linkedin" id="lin"></i></a>
+                    <a href="https://github.com/mdaadilsiddiqui"><i class="fa-brands fa-github"
+                            id="git"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------- About  -------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/img2.jpg" alt="this is img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi, I'am Aadil a frontend devloper -- with roots in programming. I have a passion for Web
+                        Developement and consider myself Front-End Web Developer with Expertise in HTML, CSS and
+                        Javascript. I'am passionate about music, technology and basically everything that makes the
+                        internet tick.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>C Language</li>
+                            <li><span>Web Development</span><br>HTML5 <br>CSS3 <br>Javascript</li>
+                            <li><span>Framework</span><br>Bootstrap5</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Application (2021-2024)</span><br>From Aishwarya College
+                                of Education (Affilated to J.N.V.University) and secured <strong>67%</strong>
+                                marks till 2nd year.</li>
+                            <li><span>Senior Secondary Examination (2020–2021)</span><br>From Kendriya Vidhyalya No.1
+                                Airforce
+                                (CBSE board) <br>(Physics, Chemistry, Mathematics) <br>Marks - <strong>75.1%.</strong>
+
+                            </li>
+                            <li><span>Secondary Examination (2018-2019)</span><br>Kendriya Vidhyalya No.1 Airforce
+                                (CBSE board) <br>
+                                Marks – <strong>78.6%.</strong></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------Portfolio-------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/acers.jpg" alt="img">
+                    <div class="layer">
+                        <h3>ACERS</h3>
+                        <p>Designed an impactful educational website for my final year project.</p>
+                        <a href="https://mdaadilsiddiqui.github.io/Acers/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/book.png" alt="img">
+                    <div class="layer">
+                        <h3>BOOKVERSE</h3>
+                        <p>Discover an extensive e-commerce platform offering a wide selection of books.</p>
+                        <a href="https://mdaadilsiddiqui.github.io/Bookverse/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/car.jpg" alt="img">
+                    <div class="layer">
+                        <h3>BROTOMOTIVE</h3>
+                        <p>Completed the creation of Brotomotive's website with some modifications</p>
+                        <a href="https://mdaadilsiddiqui.github.io/Brotomotive/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------Contact---------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mdaadilsiddiquigmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 9799551476</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/siddiquiaaqalb/?igsh=MzRlODBiNWFlZA%3D%3D"><i
+                                class="fa-brands fa-instagram" id="ins"></i></a>
+                        <a href="https://www.linkedin.com/in/siddiquimdaadil/"><i class="fa-brands fa-linkedin"
+                                id="lin"></i></a>
+                        <a href="https://github.com/mdaadilsiddiqui"><i class="fa-brands fa-github" id="git"></i></a>
+                    </div>
+                    <a href="images/aadil-siddiqui-resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Aadil.</p>
+        </div>
+    </div>
+
+    <!-- ----------------------------javscript------------------ -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Front-End Developer', 'Programmer', 'Front-End Developer', 'Programmer', 'Front-End Developer', 'Programmer', 'Front-End Developer'],
+            typeSpeed: 100,
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
